@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #182d4c;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 30px 0px;
+}
+
+/* hero section  */
+
+.hero {
+    width: 90vw;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+/* left form section  */
+
+.form {
+    background-color: whitesmoke;
+    padding: 20px 0px;
+    border-radius: 8px;
+    text-align: center;
+    height: 75vh;
+}
+
+.form h2 {
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 85%;
+    margin: auto;
+}
+
+.inputs input,
+.inputs textarea {
+    padding: 10px;
+    border: 2px solid #3c9dda;
+    outline: none;
+    border-radius: 8px;
+    font-size: small;
+}
+
+.inputs input::placeholder,
+.inputs textarea::placeholder {
+    color: gray;
+    font-size: small;
+}
+
+button {
+    background-color: #3c9dda;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #49b0f1;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+/* right story section  */
+
+.story {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 55vh;
+    margin: auto;
+    padding: 0px 20px;
+    border-radius: 8px;
+}
+
+.image img {
+    width: 240px;
+    /* border: 1px solid gray; */
+}
+
+.text p {
+    font-size: medium;
+    color: gray;
+    margin: 15px 0px;
+}
+
+.text h4 {
+    background-color: #182d4c;
+    width: 300px;
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+    padding: 8px 8px;
+    font-weight: 400;
+    border-radius: 6px;
+}
